@@ -26,7 +26,7 @@ public class Thread1 extends Frame implements Runnable {
             else
                 i++;
             try {
-                Thread.sleep(20);
+                Thread.sleep(10);
             } catch (Exception e) {
 
             }
@@ -49,7 +49,7 @@ public class Thread1 extends Frame implements Runnable {
                 else
                     j++;
                 try {
-                    Thread.sleep(20);
+                    Thread.sleep(10);
                 } catch (Exception e) {
 
                 }

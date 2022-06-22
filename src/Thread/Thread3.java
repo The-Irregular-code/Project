@@ -29,14 +29,14 @@ public class Thread3 extends Frame implements Runnable {
                     i++;
             }
             if (th.equals(th2)) {
-                t2.setText(String.valueOf(i));
+                t2.setText(String.valueOf(j));
                 if (j == 1000)
                     j = 0;
                 else
                     j++;
             }
             try {
-                Thread.sleep(20);
+                Thread.sleep(10);
             } catch (Exception e) {
 
             }
